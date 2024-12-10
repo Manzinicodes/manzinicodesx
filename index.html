@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Style for the heading */
+        #head {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00698f;
+        }
+        
+        /* Style for the paragraphs */
+        p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        /* Style for the anchor element */
+        a {
+            text-decoration: none;
+            color: #00698f;
+        }
+        
+        a:hover {
+            color: #4CAF50;
+        }
+        
+        /* Style for the input field */
+        #name {
+            width: 200px;
+            height: 30px;
+            font-size: 1.2rem;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        /* Style for the button */
+        #btn {
+            width: 100px;
+            height: 30px;
+            font-size: 1.2rem;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        #btn:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<h1 id="head" class="jambotron">Brandeal</h1>
+<p>Greating value in the supply chain</p>
+<body>
+    <!--Headings  -->
+    <h1>Heading01</h1>
+    <h2>Heading02</h2>
+    <h3>Heading03</h3>
+    <!--Paragraphs -->
+    <p>Simplifying and managing the supply chain world via ou application
+        ,keeping it safe from third  party participants.
+        <!-- Anchor element -->
+         <a href="about.html">about</a>
+    </p>
+
+    <input id="name"/>
+    <button id="btn">Greet Me</button>
+    
+</body>
+
+<script>
+    input = document.getElementById("name")
+    text = document.getElementById("head")
+
+    button = document.getElementById("btn")
+
+
+    value = input.value
+
+
+
+    button.addEventListener("click", (event)=>{
+        console.log("Hello world")
+
+   
+    })
+
+
+
+</script>
+</html>
